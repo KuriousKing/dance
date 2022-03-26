@@ -60,23 +60,23 @@
             <form action="">
                 <div class="form">
                     <label for="name">Name: </label>
-                    <input type="text" for="name" id="name" placeholder="Enter your Name here">
+                    <input type="text" for="name" id="name" name="name" placeholder="Enter your Name here">
                 </div>
                 <div class="form">
                     <label for="email">Email: </label>
-                    <input type="email" for="email" id="email" placeholder="Enter your Email here">
+                    <input type="email" for="email" id="email" name="email" placeholder="Enter your Email here">
                 </div>
                 <div class="form">
                     <label for="subject">Subject: </label>
-                    <input type="text" for="subject" id="subject" placeholder="Enter the Subject here">
+                    <input type="text" for="subject" id="subject" name="subject" placeholder="Enter the Subject here">
                 </div>
                 <div class="form">
                     <label for="message">Message: </label>
-                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message for us here!"></textarea>
+                    <textarea name="message" id="message" cols="30" rows="10" name="message" placeholder="Enter your message for us here!"></textarea>
                 </div>
+                <input type="submit" onclick="formSubmit()" value="Submit" id="submit_form">
             </form>
         </div>
-        <button id="submit_form">Submit</button>
     </section>
 </body>
 
