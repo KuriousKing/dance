@@ -49,11 +49,9 @@ html {
     display: block;
     font-family: 'Baloo Bhaijaan 2', cursive;
     text-decoration: none;
-    font-size: 1.8rem;
     font-weight: 900;
     color: white;
     margin: 0px 0px;
-    padding: 0px 60px;
 }
 
 #home {
@@ -85,12 +83,14 @@ html {
     font-family: 'Inspiration', cursive;
 }
 
+
 #home h3 {
     color: white;
     font-size: 2.5rem;
     font-family: 'Shadows Into Light', cursive;
 }
 
+/* photos section  */
 #photos {
     display: flex;
     flex-direction: column;
@@ -99,6 +99,7 @@ html {
     align-items: center;
     text-align: center;
     background-color: aliceblue;
+    padding: 20px;
 }
 
 #photos h1 {
@@ -146,10 +147,11 @@ html {
 
 #contact h2 {
     font-size: 3rem;
-    font-family: cursive;
+    font-family: helvetica, cursive;
     font-weight: 10;
-    margin: 20px auto;
-    padding: 20px 20px;
+    margin: 0px auto;
+    margin-bottom: 0px;
+    padding: 10px 20px;
 }
 
 #contact-box {
@@ -158,7 +160,7 @@ html {
     align-items: center;
 }
 
-.flexbox {
+.container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 220px;
@@ -168,13 +170,23 @@ html {
 
 
 .contact_email {
-    display: flex;
+    display: block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 2rem;
     margin: 20px auto;
 }
 
+.contact_email span {
+    font-weight: bold;
+}
+
 .contact_num {
-    display: flex;
+    display: block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 2rem;
     margin: 20px auto;
+}
+
+.contact_num span {
+    font-weight: bold;
 }
