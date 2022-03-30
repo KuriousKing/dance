@@ -1,146 +1,139 @@
-    #home h1 {
-        font-size: 15rem;
-    }
+#home h1 {
+    font-size: 15rem;
+}
 
-    #photos .box .pics img {
-        margin: 3px -4px;
-    }
+#photos .box .pics img {
+    margin: 3px -4px;
+}
 
-    /* contact section */
-    #contact::before {
-        height: 100%;
-    }
+/* contact section */
+#contact::before {
+    height: 100%;
+}
 
+.container {
+    grid-gap: 60px;
+}
+
+#contact h2 {
+    font-size: 2.6rem;
+}
+
+.contact_email {
+    font-size: 1.5rem;
+}
+
+.contact_num {
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1200px) {
     .container {
-        grid-gap: 60px;
+        grid-gap: 7px;
     }
 
     #contact h2 {
-        font-size: 2.6rem;
+        font-size: 2rem;
     }
 
     .contact_email {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+        margin: 0px;
     }
 
     .contact_num {
+        font-size: 1.2rem;
+        margin: 0px;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    #home h1 {
+        padding-top: 90px;
+        font-size: 11rem;
+    }
+
+    #home h3 {
+        font-size: 2rem;
+    }
+
+    #navbar ul {
+        margin: 1px auto;
+    }
+
+    #photos .box {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #photos .box .pics {
+        width: 100%;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:750px) {
+    #home h1 {
+        font-size: 8rem;
+    }
+
+    #home h3 {
+        font-size: 1.7rem;
+    }
+
+    #contact h2 {
         font-size: 1.5rem;
     }
 
-
-
-    @media screen and (max-width: 1200px) {
-        .container {
-            grid-gap: 30px;
-        }
-
-        #contact h2 {
-            font-size: 2rem;
-        }
-
-        .contact_email {
-            font-size: 1.2rem;
-            margin: 0px;
-        }
-
-        .contact_num {
-            font-size: 1.2rem;
-            margin: 0px;
-        }
-
+    .contact_email {
+        font-size: 0.8rem;
+        margin: 0px;
     }
 
-    @media screen and (max-width: 1020px) {
-        #home h1 {
-            padding-top: 90px;
-            font-size: 11rem;
-        }
+    .contact_num {
+        font-size: 0.8rem;
+        margin: 0px;
+    }
+}
 
-
-        #home h3 {
-            font-size: 2rem;
-        }
-
-        #navbar ul {
-            margin: 1px auto;
-        }
-
-        #photos .box {
-            flex-direction: column;
-            justify-content: center;
-        }
-
-        #photos .box .pics {
-            width: 100%;
-        }
-
-        .container {
-            display: flex;
-            flex-direction: column;
-        }
+@media screen and (max-width:660px) {
+    #navbar ul li a {
+        font-size: 1.8rem;
+        padding: 5px 30px;
     }
 
-    @media screen and (max-width:750px) {
-        #home h1 {
-            font-size: 8rem;
-        }
+    #home h1 {
+        font-size: 6rem;
+    }
+}
 
-        #home h3 {
-            font-size: 1.7rem;
-        }
-
-        #contact h2 {
-            font-size: 1.5rem;
-        }
-
-        .contact_email {
-            font-size: 0.8rem;
-            margin: 0px;
-        }
-
-        .contact_num {
-            font-size: 0.8rem;
-            margin: 0px;
-        }
+@media screen and (max-width:500px) {
+    #navbar ul li a {
+        font-size: 1rem;
+        padding: 5px 20px;
     }
 
-    @media screen and (max-width:660px) {
-        #navbar ul li a {
-            font-size: 1.8rem;
-            padding: 5px 30px;
-        }
-
-        #home h1 {
-            font-size: 6rem;
-        }
+    #home {
+        padding-bottom: 175px;
     }
 
-    @media screen and (max-width:500px) {
-        #navbar ul li a {
-            font-size: 1rem;
-            padding: 5px 20px;
-        }
-
-        #home {
-            padding-bottom: 175px;
-        }
-
-        #home::before {
-            height: 500px;
-        }
-
-        #home h1 {
-            font-size: 5rem;
-        }
-
-        #home h3 {
-            font-size: 1rem;
-        }
-
-
-
-        #contact h2 {
-            margin: 0px auto;
-        }
-
+    #home::before {
+        height: 500px;
     }
+
+    #home h1 {
+        font-size: 5rem;
+    }
+
+    #home h3 {
+        font-size: 1rem;
+    }
+
+    #contact h2 {
+        margin: 0px auto;
+    }
+}
